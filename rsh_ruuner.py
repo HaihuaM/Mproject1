@@ -8,14 +8,14 @@ class RSH_RUNNER:
 	__runner_requestor__        =    ''
 	__operating_machine__       =    ''
 	__log_path__                =    ''
-	__parellel_exec__           =    false
+	__parellel_exec__           =    False
 	__parellel_proc__           =    0
 	__command_queue__           =    []
 	__log_id__                  =    ''
 	__return_content__          =    ''
 	
 
-	self.__init__(self,requestor,machine,log_path,parellel_proc,command_queue):
+	def __init__(self,requestor,machine,log_path,parellel_proc,command_queue):
 		self.__runner_requestor__        =    requestor
 		self.__operating_machine__       =    machine
 		self.__log_path__                =    log_path
